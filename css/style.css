@@ -1,0 +1,169 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.btn {
+  border: 3px solid #D9E0E6;
+  text-transform: uppercase;
+  color: #D9E0E6;
+  padding: 10px 30px;
+  letter-spacing: .1em;
+  line-height: 27px;
+}
+
+.btn:hover {
+  background-color: #B8BDB7;
+  color: #282C2F;
+  border: 3px solid #D9E0E6;
+}
+
+.subtitulo {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #48484B;
+  line-height: 30px;
+  letter-spacing: .1em;
+  margin-top: 61px;
+  text-align: center;
+}
+
+.subtitulo:after {
+  content: "";
+  width: 65px;
+  height: 3px;
+  background-color: #282C2E;
+  display: block;
+  margin: 5px auto;
+}
+
+.centered-flex {
+  justify-content: center;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #282C2F;
+  display: flex;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+
+.header__menu {
+  height: 90px;
+  padding: 32px;
+}
+
+.header__menu ul li {
+  display: inline-block;
+}
+
+.header__menu ul li a {
+  text-transform: uppercase;
+  margin-left: 17px;
+  font-weight: bold;
+  color: #B8BDB7;
+  letter-spacing: .1em;
+  line-height: 27px;
+  padding: 10px 0;
+}
+
+.header__menu ul li a:hover {
+  border-bottom: 1px solid #FB9F85;
+}
+
+/* Introducao */
+#introducao {
+  width: 100%;
+  background-color: #282C2F;
+  height: 550px;
+  margin-top: 90px;
+  text-align: center;
+  /* padding-top: 141px; */
+  padding-top: 80px;
+}
+
+#introducao h1 {
+  font-size: 48px;
+  letter-spacing: .1em;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #FEE3BB;
+}
+
+#introducao h1:after {
+  content: "";
+  display: block;
+  margin: 18px auto;
+  width: 244px;
+  height: 3px;
+  background-color: #48484B;
+}
+
+#introducao p {
+  color: #B8BDB7;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.social-btns {
+  max-width: 310px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  margin-top: 50px;
+  z-index: 40;
+}
+
+.social-btns .btn {
+  margin-bottom: 17px;
+  z-index: 40;
+}
+
+.ilustracao {
+  position: absolute;
+  margin-top: -377px;
+  margin-left: 332px;
+}
+
+.ilustracao img {
+  max-width: 900px;
+  pointer-events: none;
+}
+
+/* Sobre mim */
+#about {
+  margin-top: 212px;
+}
+
+#about p {
+  margin-top: 70px;
+  padding: 0 200px;
+  text-align: center;
+}
+
+/* Conhecimentos */
+#skills {
+  height: 840px;
+  background-color: #282C2F;
+  /* background-image: url("../img/bg-skills.png"); */
+}
+
+#skills .subtitulo {
+  color: #FB9F85;
+}
+
+#skills .subtitulo:after {
+  background-color: #FB9F85;
+}
