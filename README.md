@@ -1,6 +1,6 @@
 # Emanuelle Viana - Portfolio
 
-Projeto em andamento, que irá reunir meus dados de contato e os projetos.
+Projeto em andamento, que irá reunir meus dados de contato e projetos.
 
 ## Protótipo
 <img src="./img/smaple.png"
