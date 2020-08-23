@@ -1,109 +1,205 @@
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emanuelle Viana | Web Developer</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Emanuelle Viana | Web Developer</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-
-  <header class="header">
-    <div class="container">
-      <nav class="header__menu">
-        <ul>
-          <li><a href="#introducao"> Home</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section id="introducao">
-    <div class="container__content">
-      <h1>Emanuelle Viana</h1>
-      <p>Web Developer</p>
-      <div class="social-btns">
-        <a href="#" class="btn">Connect on Linkedin</a>
-        <a href="#" class="btn">Connect on Github</a>
-        <a href="#" class="btn">Send Email</a>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__menu">
+          <ul>
+            <li><a href="#introducao"> Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
       </div>
+    </header>
+
+    <section id="introducao">
+      <div class="container__content">
+        <h1>Emanuelle Viana</h1>
+        <p>Web Developer</p>
+        <div class="social-btns">
+          <a href="#" class="btn">Connect on Linkedin</a>
+          <a href="#" class="btn">Connect on Github</a>
+          <a href="#" class="btn">Send Email</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container__content ilustracao">
+      <img src="img/girl.png" />
     </div>
-  </section>
 
-  <div class="container__content ilustracao">
-    <img src="img/girl.png">
-  </div>
+    <section id="about">
+      <div class="container centered-flex">
+        <h2 class="subtitulo">About me</h2>
+        <p>
+          O Lorem Ipsum é um texto modelo da indústria tipográfica e de
+          impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por
+          estas indústrias desde o ano de 1500, quando uma misturou os
+          caracteres de um texto para criar um espécime de livro. Este texto não
+          só sobreviveu 5 séculos, mas também o salto para a tipografia
+          electrónica, mantendo-se essencialmente inalterada. Foi popularizada
+          nos anos 60 com a disponibilização das folhas de Letraset, que
+          continham passagens com Lorem Ipsum, e mais recentemente com os
+          programas de publicação como o Aldus PageMaker que incluem versões do
+          Lorem Ipsum.
+        </p>
+        <img src="img/girl-notebook.png" />
+      </div>
+    </section>
 
-  <section id="about">
-    <div class="container centered-flex">
-      <h2 class="subtitulo">About me</h2>
-      <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada. Foi popularizada nos anos 60 com a disponibilização das folhas de Letraset, que continham passagens com Lorem Ipsum, e mais recentemente com os programas de publicação como o Aldus PageMaker que incluem versões do Lorem Ipsum.
-      </p>
-      <img src="img/girl-notebook.png">
-    </div>
+    <section id="skills">
+      <div class="centered-flex">
+        <h2 class="subtitulo">Skills</h2>
+      </div>
+      <div class="container centered-flex">
+        <ul class="skills-lista">
+          <li>
+            <img src="/img/icons8-angularjs.png" />
+            <h3>Angular</h3>
+          </li>
+          <li>
+            <img src="/img/css.png" />
+            <h3>CSS</h3>
+          </li>
+          <li>
+            <img src="/img/html.png" />
+            <h3>HTML</h3>
+          </li>
+          <li>
+            <img src="/img/java.png" />
+            <h3>Java</h3>
+          </li>
+          <li>
+            <img src="/img/js.png" />
+            <h3>Javascript</h3>
+          </li>
+          <li>
+            <img src="/img/ionic.png" />
+            <h3>Ionic</h3>
+          </li>
+          <li>
+            <img src="/img/ts.png" />
+            <h3>Typescript</h3>
+          </li>
+          <li>
+            <img src="/img/data.png" />
+            <h3>Hibernate</h3>
+          </li>
+        </ul>
+        <p>
+          <a href="#" class="btn">View relacted projects</a>
+        </p>
+      </div>
+    </section>
 
-    <!-- <div class="container">
-      <div class="container__content">Teste</div>
-      <div class="container__content">Teste</div>
-      <div class="container__content">Teste</div>
-      <div class="container__content">Teste</div>
-      <div class="container__content">Teste</div>
-    </div> -->
-  </section>
+    <section id="projects">
+      <h2 class="subtitulo centered-flex">Projects</h2>
 
-  <section id="skills">
-    <div class="centered-flex">
-      <h2 class="subtitulo">Skills</h2>
-    </div>
-    <div class="container centered-flex">
-      <ul class="skills-lista">
-        <li>
-          <img src="/img/icons8-angularjs.png">
-          <h3>Angular</h3>
-        </li>
-        <li>
-          <img src="/img/css.png">
-          <h3>CSS</h3>
-        </li>
-        <li>
-          <img src="/img/html.png">
-          <h3>HTML</h3>
-        </li>
-        <li>
-          <img src="/img/java.png">
-          <h3>Java</h3>
-        </li>
-        <li>
-          <img src="/img/js.png">
-          <h3>Javascript</h3>
-        </li>
-        <li>
-          <img src="/img/ionic.png">
-          <h3>Ionic</h3>
-        </li>
-        <li>
-          <img src="/img/ts.png">
-          <h3>Typescript</h3>
-        </li>
-        <li>
-          <img src="/img/data.png">
-          <h3>Hibernate</h3>
-        </li>
-      </ul>
-      <p>
-        <a href="#" class="btn">View relacted projects</a>
-      </p>
-    </div>
-  </section>
+      <div class="container centered-flex">
+        <ul class="projetos_lista">
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-</body>
+    <section id="contacts">
+      <div class="container">
+        <div class="download-cv">
+          <h3>Wish to know more? Download my CV</h3>
+          <a href="#" class="btn-download">Download CV</a>
+        </div>
+      </div>
 
+      <h2 class="subtitulo centered-flex">Contacts</h2>
+    </section>
+  </body>
 </html>
