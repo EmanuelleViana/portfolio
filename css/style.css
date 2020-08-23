@@ -6,6 +6,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 p {
@@ -162,10 +163,11 @@ p {
 
 /* Conhecimentos */
 #skills {
-  height: 680px;
+  /* height: 680px; */
   background-color: #282C2F;
   /* background-image: url("../img/bg-skills.png"); */
   margin-top: 60px;
+  padding-bottom: 20px;
 }
 
 #skills .subtitulo {
@@ -358,4 +360,33 @@ footer {
   color: #B8BDB7;
   font-size: 18px;
   padding: 58px 30px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 768px) {
+  .ilustracao {
+    display: none;
+  }
+  
+  .header__menu ul li a {
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  #about {
+    margin-top: 12px;
+}
+#about p {
+  margin-top: 20px;
+  padding: 0 70px;
+  text-align: center;
+}
+
+.download-cv a,
+.download-cv h3 {
+  float: unset;
+  margin-bottom: 30px;
+}
+.download-cv {
+  text-align: center;
+}
 }
