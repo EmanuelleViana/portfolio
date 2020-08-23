@@ -10,4 +10,5 @@ A prototipagem foi feita com a ferramenta Adobe XD.
      style="float: left; margin-right: 10px;" />
 
 ## Link de acesso
-    Visualizar: [Visualizar](https://emanuelleviana.github.io/portfolio/)
+Visualizar projeto: [Visualizar](https://emanuelleviana.github.io/portfolio/)
+
