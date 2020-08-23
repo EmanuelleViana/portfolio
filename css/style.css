@@ -56,12 +56,13 @@ p {
 /* Header */
 .header {
   width: 100%;
-  background-color: #282C2F;
+  background-color:#252B2D;
   display: flex;
   align-content: center;
   position: fixed;
   top: 0;
   z-index: 9999;
+  border-bottom: 1px solid gray;
 }
 
 .header__menu {
@@ -163,7 +164,8 @@ p {
 #skills {
   height: 680px;
   background-color: #282C2F;
-  background-image: url("../img/bg-skills.png");
+  /* background-image: url("../img/bg-skills.png"); */
+  margin-top: 60px;
 }
 
 #skills .subtitulo {
@@ -251,6 +253,7 @@ ul.skills-lista {
 
 .container-img {
   position: relative;
+  background-color: #A9AEB3;
 }
 
 .text {
@@ -265,7 +268,9 @@ ul.skills-lista {
   transform: translate(-50%, -50%);
   text-align: center;
   font-size: 20px;
+  padding: 100px;
 }
+
 
 
 /* Contatos */
@@ -298,8 +303,52 @@ ul.skills-lista {
   padding: 16px 0;
 }
 
+.download-cv a:hover {
+  border: 1px solid #fee3bb;
+}
+
 #contacts {
   background-color: #B8BDB7;
   padding-top: 97px;
   margin-top: 60px;
+}
+
+#contacts h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+#contacts .dados {
+  margin: 60px 200px 60px  0;
+}
+#contacts .redes {
+  margin: 60px 0;
+}
+.redes img {
+  border: 3px solid #282C2E;
+  padding: 10px;
+  width: 65px;
+  height: 63px;
+  margin: 10px 11px 0 0;
+}
+
+.redes img:hover {
+  border-color: #fee3bb;
+}
+
+#contacts .dados,
+#contacts .redes {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contacts .dados p {
+  padding: 10px 0;
+}
+
+/* Rodape */
+footer {
+  height: 120px;
+  background-color: #282C2E;
+  color: #B8BDB7;
+  font-size: 18px;
+  padding: 58px 30px;
 }
