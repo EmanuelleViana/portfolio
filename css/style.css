@@ -194,6 +194,13 @@ ul.skills-lista {
   padding-top: 34px;
   margin-bottom: 36px;
 }
+.skills-lista li:hover
+ {
+  border: 4px solid #FEE3BB;
+}
+.skills-lista li h3:hover {
+  color: #FEE3BB;
+}
 
 .skills-lista li h3 {
   font-size: 18px;
