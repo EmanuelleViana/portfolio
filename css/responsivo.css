@@ -1,0 +1,47 @@
+/* Estilos para tablets */
+/* @media only screen and (min-width: 768px) and (max-width: 979px) {} */
+
+/* Estilos para smartphones */
+@media only screen and (max-width: 787px) {
+  .header {
+    position: relative;
+  }
+
+  .header img {
+    margin: 0 auto;
+  }
+
+  .header__menu {
+    text-align: center;
+    height: 100%;
+
+  }
+
+  .header_menu ul li {
+    margin: 0;
+  }
+
+  .header__menu ul li a {
+    color: #B8BDB7;
+    border: 2px solid #B8BDB7;
+    margin-bottom: 10px;
+    width: 140px;
+    float: left;
+    display: block;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+
+  .header__menu ul li a:hover {
+    border: 2px solid #FB9F85;
+  }
+
+  #introducao {
+    margin-top: 0;
+  }
+
+}
