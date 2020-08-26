@@ -167,7 +167,7 @@ p {
   background-color: #282C2F;
   /* background-image: url("../img/bg-skills.png"); */
   margin-top: 60px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 #skills .subtitulo {
@@ -315,6 +315,7 @@ ul.skills-lista {
 
 .download-cv a:hover {
   border: 1px solid #fee3bb;
+  color: #fee3bb;
 }
 
 #contacts {
@@ -392,6 +393,12 @@ footer {
   .download-cv h3 {
     float: unset;
     margin-bottom: 30px;
+  }
+
+  .download-cv a {
+    padding-left: 20px;
+    padding-right: 20px;
+
   }
 
   .download-cv {
