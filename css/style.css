@@ -185,7 +185,7 @@ p {
 ul.skills-lista {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 77px;
+  margin-top: 60px;
   justify-content: center;
 }
 
@@ -380,7 +380,7 @@ footer {
 
   .header__menu ul li a {
     font-size: 12px;
-    margin-left: 8px;
+    margin-left: 5px;
   }
 
   #about {
@@ -389,7 +389,7 @@ footer {
 
   #about p {
     margin-top: 20px;
-    padding: 0 70px;
+    padding: 0 20px;
     text-align: center;
   }
 
@@ -415,6 +415,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1240px) {
+
   .ilustracao img {
     max-width: 666px;
   }
