@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/grid.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsivo.css" />
+    <link rel="stylesheet" href="./css/simple-slide.css" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
@@ -21,7 +22,7 @@
     <meta name="theme-color" content="#ffffff">
   </head>
 
-  <body>
+  <div>
     <div class="body">
     <header class="header">
       <div class="container">
@@ -117,7 +118,103 @@
     <section id="projects">
       <h2 class="subtitulo centered-flex">Projects</h2>
 
-      <div class="container centered-flex">
+      <div class="container centered-flex" data-slide="projects">
+        <ul class="projetos_lista">
+          <li>
+            <div class="container-img">
+              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+              <div class="overlay">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.app.amcp&hl=en" target="_blank"
+                >
+                  <div class="text">
+                    <span>Visualizar</span>
+                    <i class="fas fa-play"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+            <p>Aplicativo Mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/imdb.png" alt="IMDB" style="width: 100%;" />
+              <div class="overlay">
+                <a
+                href="https://imdbmovies.netlify.app/" target="_blank">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </a>
+
+              </div>
+            </div>
+            <h3>IMDB - Catálogo de filmes</h3>
+            <p>Website</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/insta.png" alt="instagram copy" style="width: 100%;" />
+              <a href="https://emanuelleviana-instagram.netlify.app/" target="_blank">
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+            <h3>Instagram</h3>
+            <p>Website</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/braco.png" alt="braco robotico" style="width: 100%;" />
+              <a href="https://github.com/EmanuelleViana/Controle-Braco-Robotico/" target="_blank">
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+                </a>
+              </div>
+            </div>
+            <h3>Controlador de braço robótico</h3>
+            <p>Aplicativo mobile</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/ecoleta.png" alt="ecoleta" style="width: 100%;" />
+              <a href="https://github.com/EmanuelleViana/ecoleta" target="_blank">
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </a>
+              </div>
+            </div>
+            <h3>Ecoleta</h3>
+            <p>Aplicativo Mobile e Website (React)</p>
+          </li>
+          <li>
+            <div class="container-img">
+              <img src="img/bikcraft.png" alt="Bikcraft" style="width: 100%;" />
+              <a href="https://github.com/EmanuelleViana/bikcraft" target="_blank">
+              <div class="overlay">
+                <div class="text">
+                  <span>Visualizar</span>
+                  <i class="fas fa-play"></i>
+                </div>
+              </a>
+              </div>
+            </div>
+            <h3>Bikcraft</h3>
+            <p>Website</p>
+          </li>
+        </ul>
         <ul class="projetos_lista">
           <li>
             <div class="container-img">
@@ -246,6 +343,8 @@
       Emanuelle Viana - 2020 ©
       <a href="https://icons8.com/" style="font-size: 10px; float: right;">Icons: icons8</a>
     </footer>
-  </body>
+  </div>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
   </body>
 </html>
