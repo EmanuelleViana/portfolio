@@ -399,11 +399,15 @@ footer {
   .download-cv a {
     padding-left: 20px;
     padding-right: 20px;
+  }
 
+  .download-cv h3 {
+    margin-top: 0px;
   }
 
   .download-cv {
     text-align: center;
+    padding: 30px;
   }
 }
 
