@@ -4,3 +4,7 @@ new SimpleSlide({
   auto: false, // se o slide deve passar automaticamente
   time: 5000, // tempo de transição dos slides
 });
+
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
