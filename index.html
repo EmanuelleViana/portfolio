@@ -1,30 +1,39 @@
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta 
-    name='viewport' 
-    content='width=device-width, initial-scale=1.0, maximum-scale=1.0' 
-/>
-    <title>Emanuelle Viana | Web Developer</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/grid.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/responsivo.css" />
-    <link rel="stylesheet" href="./css/simple-slide.css" />
-    <link rel="stylesheet" href="/css/simple-anime.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./img/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <title>Emanuelle Viana | Web Developer</title>
+  <meta name="description" content="Emanuelle Viana, 23 anos, desenvolvedora Web, formada em Ciência da Computação. Veja os projetos e saiba mais.">
 
-  <div>
-    <div class="body">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Emanuelle Viana | Web Developer" />
+  <meta property="og:description" content="Emanuelle Viana, 23 anos, desenvolvedora Web, formada em Ciência da Computação. Veja os projetos e saiba mais." />
+  <meta property="og:url" content="https://emanuelleviana.github.io/portfolio/" />
+  <meta property="og:image" content="https://emanuelleviana.github.io/portfolio/img/og-image.png" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Title Até 70 caracteres -->
+  <!-- Description Até 140 caracteres -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/responsivo.css" />
+  <link rel="stylesheet" href="./css/simple-slide.css" />
+  <link rel="stylesheet" href="/css/simple-anime.css" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<div>
+  <div class="body">
     <header class="header">
       <div class="container">
         <nav class="header__menu">
@@ -43,7 +52,7 @@
       <div class="container__content">
         <h1 data-anime="400" class="fadeInDown">Emanuelle Viana</h1>
         <p data-anime="800" class="fadeInDown">Web Developer</p>
-        <div class="social-btns">
+        <div class="social-btns" data-anime="1200">
           <a href="https://www.linkedin.com/in/emanuelle-viana/" target="_blank" class="btn">Connect on Linkedin</a>
           <a href="https://github.com/EmanuelleViana" target="_blank" class="btn">Connect on Github</a>
           <a href="mailto: emanuelleve@hotmail.com" target="_blank" class="btn">Send Email</a>
@@ -55,7 +64,7 @@
       <img src="img/girl.png" />
     </div>
 
-    <section id="about">
+    <section id="about" class="fadeInDown" data-anime="1800">
       <div class="container centered-flex">
         <h2 class="subtitulo">About me</h2>
         <p>
@@ -63,9 +72,9 @@
           My name is Emanuelle, but you can call me <b>Manu</b> too.<br>
           I'm 23 years old and for now I'm graduated in Compuer Science by PUC-Minas.<br>
           Currently, I'm working with Web Developer, but I already
-          had contact with Android apps.<br> 
-          I love technology, music and knowing new things. 
-          
+          had contact with Android apps.<br>
+          I love technology, music and knowing new things.
+
         </p>
         <img src="img/girl-notebook.png" />
       </div>
@@ -125,9 +134,7 @@
             <div class="container-img">
               <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
               <div class="overlay">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.app.amcp&hl=en" target="_blank"
-                >
+                <a href="https://play.google.com/store/apps/details?id=com.app.amcp&hl=en" target="_blank">
                   <div class="text">
                     <span>Visualizar</span>
                     <i class="fas fa-play"></i>
@@ -142,109 +149,12 @@
             <div class="container-img">
               <img src="img/imdb.png" alt="IMDB" style="width: 100%;" />
               <div class="overlay">
-                <a
-                href="https://imdbmovies.netlify.app/" target="_blank">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-              </a>
-
-              </div>
-            </div>
-            <h3>IMDB - Catálogo de filmes</h3>
-            <p>Website</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/insta.png" alt="instagram copy" style="width: 100%;" />
-              <a href="https://emanuelleviana-instagram.netlify.app/" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-                </a>
-              </div>
-            </div>
-            <h3>Instagram</h3>
-            <p>Website</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/braco.png" alt="braco robotico" style="width: 100%;" />
-              <a href="https://github.com/EmanuelleViana/Controle-Braco-Robotico/" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-                </a>
-              </div>
-            </div>
-            <h3>Controlador de braço robótico</h3>
-            <p>Aplicativo mobile</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/ecoleta.png" alt="ecoleta" style="width: 100%;" />
-              <a href="https://github.com/EmanuelleViana/ecoleta" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-              </a>
-              </div>
-            </div>
-            <h3>Ecoleta</h3>
-            <p>Aplicativo Mobile e Website (React)</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/bikcraft.png" alt="Bikcraft" style="width: 100%;" />
-              <a href="https://github.com/EmanuelleViana/bikcraft" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-              </a>
-              </div>
-            </div>
-            <h3>Bikcraft</h3>
-            <p>Website</p>
-          </li>
-        </ul>
-        <ul class="projetos_lista">
-          <li>
-            <div class="container-img">
-              <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
-              <div class="overlay">
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.app.amcp&hl=en" target="_blank"
-                >
+                <a href="https://imdbmovies.netlify.app/" target="_blank">
                   <div class="text">
                     <span>Visualizar</span>
                     <i class="fas fa-play"></i>
                   </div>
                 </a>
-              </div>
-            </div>
-            <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
-            <p>Aplicativo Mobile</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/imdb.png" alt="IMDB" style="width: 100%;" />
-              <div class="overlay">
-                <a
-                href="https://imdbmovies.netlify.app/" target="_blank">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-              </a>
 
               </div>
             </div>
@@ -255,98 +165,192 @@
             <div class="container-img">
               <img src="img/insta.png" alt="instagram copy" style="width: 100%;" />
               <a href="https://emanuelleviana-instagram.netlify.app/" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-                </a>
-              </div>
-            </div>
-            <h3>Instagram</h3>
-            <p>Website</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/braco.png" alt="braco robotico" style="width: 100%;" />
-              <a href="https://github.com/EmanuelleViana/Controle-Braco-Robotico/" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-                </a>
-              </div>
-            </div>
-            <h3>Controlador de braço robótico</h3>
-            <p>Aplicativo mobile</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/ecoleta.png" alt="ecoleta" style="width: 100%;" />
-              <a href="https://github.com/EmanuelleViana/ecoleta" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
+                <div class="overlay">
+                  <div class="text">
+                    <span>Visualizar</span>
+                    <i class="fas fa-play"></i>
+                  </div>
               </a>
-              </div>
             </div>
-            <h3>Ecoleta</h3>
-            <p>Aplicativo Mobile e Website (React)</p>
-          </li>
-          <li>
-            <div class="container-img">
-              <img src="img/bikcraft.png" alt="Bikcraft" style="width: 100%;" />
-              <a href="https://github.com/EmanuelleViana/bikcraft" target="_blank">
-              <div class="overlay">
-                <div class="text">
-                  <span>Visualizar</span>
-                  <i class="fas fa-play"></i>
-                </div>
-              </a>
+      </div>
+      <h3>Instagram</h3>
+      <p>Website</p>
+      </li>
+      <li>
+        <div class="container-img">
+          <img src="img/braco.png" alt="braco robotico" style="width: 100%;" />
+          <a href="https://github.com/EmanuelleViana/Controle-Braco-Robotico/" target="_blank">
+            <div class="overlay">
+              <div class="text">
+                <span>Visualizar</span>
+                <i class="fas fa-play"></i>
               </div>
-            </div>
-            <h3>Bikcraft</h3>
-            <p>Website</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="contacts">
-      <div class="container">
-        <div class="download-cv">
-          <h3>Wish to know more? Download my CV</h3>
-          <a href="./downloads/cv.pdf" target="_blank" class="btn-download">Download CV</a>
+          </a>
         </div>
-      </div>
-
-      <h2 class="subtitulo centered-flex">Contacts</h2>
-
-      <div class="container centered-flex">
-        <div class="dados">
-          <h4>Dados</h4>
-          <p>emanuelleve@hotmail.com</p>
-          <p>Belo Horizonte, MG, Brasil</p>
-        </div>
-        <div class="redes">
-          <h4>Redes Sociais</h4>
-          <a href="https://www.linkedin.com/in/emanuelle-viana/" target="_blank"><img src="./img/in.png"></a>
-          <a href="https://github.com/EmanuelleViana" target="_blank"><img src="./img/git.png"></a>
-
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      Emanuelle Viana - 2020 ©
-      <a href="https://icons8.com/" style="font-size: 10px; float: right;">Icons: icons8</a>
-    </footer>
   </div>
-  <script src="./js/simple-slide.js"></script>
-  <script src="./js/simple-anime.js"></script>
-  <script src="./js/script.js"></script>
-  </body>
+  <h3>Controlador de braço robótico</h3>
+  <p>Aplicativo mobile</p>
+  </li>
+  <li>
+    <div class="container-img">
+      <img src="img/ecoleta.png" alt="ecoleta" style="width: 100%;" />
+      <a href="https://github.com/EmanuelleViana/ecoleta" target="_blank">
+        <div class="overlay">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+      </a>
+    </div>
+</div>
+<h3>Ecoleta</h3>
+<p>Aplicativo Mobile e Website (React)</p>
+</li>
+<li>
+  <div class="container-img">
+    <img src="img/bikcraft.png" alt="Bikcraft" style="width: 100%;" />
+    <a href="https://github.com/EmanuelleViana/bikcraft" target="_blank">
+      <div class="overlay">
+        <div class="text">
+          <span>Visualizar</span>
+          <i class="fas fa-play"></i>
+        </div>
+    </a>
+  </div>
+  </div>
+  <h3>Bikcraft</h3>
+  <p>Website</p>
+</li>
+</ul>
+<ul class="projetos_lista">
+  <li>
+    <div class="container-img">
+      <img src="img/amcp.png" alt="AMCP" style="width: 100%;" />
+      <div class="overlay">
+        <a href="https://play.google.com/store/apps/details?id=com.app.amcp&hl=en" target="_blank">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+    <h3>AMCP - ASSOCIAÇÃO MINEIRA DE CONTADORES PÚBLICOS</h3>
+    <p>Aplicativo Mobile</p>
+  </li>
+  <li>
+    <div class="container-img">
+      <img src="img/imdb.png" alt="IMDB" style="width: 100%;" />
+      <div class="overlay">
+        <a href="https://imdbmovies.netlify.app/" target="_blank">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+        </a>
+
+      </div>
+    </div>
+    <h3>IMDB - Catálogo de filmes</h3>
+    <p>Website</p>
+  </li>
+  <li>
+    <div class="container-img">
+      <img src="img/insta.png" alt="instagram copy" style="width: 100%;" />
+      <a href="https://emanuelleviana-instagram.netlify.app/" target="_blank">
+        <div class="overlay">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+      </a>
+    </div>
+    </div>
+    <h3>Instagram</h3>
+    <p>Website</p>
+  </li>
+  <li>
+    <div class="container-img">
+      <img src="img/braco.png" alt="braco robotico" style="width: 100%;" />
+      <a href="https://github.com/EmanuelleViana/Controle-Braco-Robotico/" target="_blank">
+        <div class="overlay">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+      </a>
+    </div>
+    </div>
+    <h3>Controlador de braço robótico</h3>
+    <p>Aplicativo mobile</p>
+  </li>
+  <li>
+    <div class="container-img">
+      <img src="img/ecoleta.png" alt="ecoleta" style="width: 100%;" />
+      <a href="https://github.com/EmanuelleViana/ecoleta" target="_blank">
+        <div class="overlay">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+      </a>
+    </div>
+    </div>
+    <h3>Ecoleta</h3>
+    <p>Aplicativo Mobile e Website (React)</p>
+  </li>
+  <li>
+    <div class="container-img">
+      <img src="img/bikcraft.png" alt="Bikcraft" style="width: 100%;" />
+      <a href="https://github.com/EmanuelleViana/bikcraft" target="_blank">
+        <div class="overlay">
+          <div class="text">
+            <span>Visualizar</span>
+            <i class="fas fa-play"></i>
+          </div>
+      </a>
+    </div>
+    </div>
+    <h3>Bikcraft</h3>
+    <p>Website</p>
+  </li>
+</ul>
+</div>
+</section>
+
+<section id="contacts">
+  <div class="container">
+    <div class="download-cv">
+      <h3>Wish to know more? Download my CV</h3>
+      <a href="./downloads/cv.pdf" target="_blank" class="btn-download">Download CV</a>
+    </div>
+  </div>
+
+  <h2 class="subtitulo centered-flex">Contacts</h2>
+
+  <div class="container centered-flex">
+    <div class="dados">
+      <h4>Dados</h4>
+      <p>emanuelleve@hotmail.com</p>
+      <p>Belo Horizonte, MG, Brasil</p>
+    </div>
+    <div class="redes">
+      <h4>Redes Sociais</h4>
+      <a href="https://www.linkedin.com/in/emanuelle-viana/" target="_blank"><img src="./img/in.png"></a>
+      <a href="https://github.com/EmanuelleViana" target="_blank"><img src="./img/git.png"></a>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  Emanuelle Viana - 2020 ©
+  <a href="https://icons8.com/" style="font-size: 10px; float: right;">Icons: icons8</a>
+</footer>
+</div>
+<script src="./js/simple-slide.js"></script>
+<script src="./js/simple-anime.js"></script>
+<script src="./js/script.js"></script>
+</body>
+
 </html>
