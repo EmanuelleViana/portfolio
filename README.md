@@ -3,7 +3,8 @@
 Projeto em andamento, que irá reunir meus dados de contato e projetos.
 
 ## Protótipo
-A prototipagem foi feita com a ferramenta Adobe XD.
+A prototipagem foi feita com a ferramenta Adobe XD.   <a href="./prototipo">Clique qui para ver os protótipos ampliados</a>
+
 
 <img src="./img/smaple.png"
      alt="Markdown Monster icon"
