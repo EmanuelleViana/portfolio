@@ -155,15 +155,19 @@ p {
 
 /* Sobre mim */
 #about {
-  margin-top: 212px;
+  /* margin-top: 212px; */
 }
 
 #about p {
   margin-top: 70px;
-  padding: 0 200px;
-  text-align: center;
+  text-align: left;
+  float: left;
+  max-width: 50%;
 }
-
+#about img {
+  float: right;
+  max-width: 50%;
+}
 /* Conhecimentos */
 #skills {
   /* height: 680px; */
