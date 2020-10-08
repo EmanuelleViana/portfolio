@@ -155,7 +155,7 @@ p {
 
 /* Sobre mim */
 #about {
-  /* margin-top: 212px; */
+  margin-top: 212px;
 }
 
 #about p {
@@ -322,7 +322,7 @@ ul.skills-lista {
 .download-cv h3 {
   color: #B8BDB7;
   float: left;
-  font-size: 30px;
+  font-size: 28px;
   font-style: italic;
   margin-top: 18px;
 }
