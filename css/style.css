@@ -160,10 +160,34 @@ p {
 
 #about p {
   margin-top: 70px;
-  padding: 0 200px;
-  text-align: center;
+  text-align: left;
+  float: left;
+  max-width: 50%;
+}
+#about p {
+  margin-top: 70px;
+  text-align: left;
+  float: left;
+  max-width: 50%;
+}
+#about img {
+  float: right;
+  max-width: 50%;
+  margin-top: 6px;
+  width: 300px;
+  margin-left: 100px;
+  border-radius: 50%;
+  filter: grayscale(1);
 }
 
+#about img:after {
+  float: right;
+  max-width: 50%;
+  margin-top: 6px;
+  width: 500px;
+  background: blue;
+  position:absolute;
+}
 /* Conhecimentos */
 #skills {
   /* height: 680px; */
@@ -174,11 +198,11 @@ p {
 }
 
 #skills .subtitulo {
-  color: #FB9F85;
+  color: #fee3bb;
 }
 
 #skills .subtitulo:after {
-  background-color: #FB9F85;
+  background-color: #fee3bb;
 }
 
 ul.skills-lista {
@@ -298,7 +322,7 @@ ul.skills-lista {
 .download-cv h3 {
   color: #B8BDB7;
   float: left;
-  font-size: 30px;
+  font-size: 28px;
   font-style: italic;
   margin-top: 18px;
 }
